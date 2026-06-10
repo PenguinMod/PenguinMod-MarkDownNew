@@ -1,0 +1,29 @@
+{
+  "name": "penguinmod-markdownnew",
+  "version": "1.0.0",
+  "description": "wrapper around marked with our own filter rules & formatting for PenguinMod stuff",
+  "keywords": [
+    "penguinmod"
+  ],
+  "homepage": "https://github.com/PenguinMod/PenguinMod-MarkDownNew#readme",
+  "bugs": {
+    "url": "https://github.com/PenguinMod/PenguinMod-MarkDownNew/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PenguinMod/PenguinMod-MarkDownNew.git"
+  },
+  "license": "MIT",
+  "author": "PenguinMod",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "highlight.js": "^11.11.1",
+    "marked": "^18.0.5",
+    "marked-alert": "^2.1.2",
+    "marked-highlight": "^2.2.4"
+  }
+}
